@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+
+    <title>Mori0x Portfolio Site</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    <div class="head">
+        
+
+        <header id="header">
+          <a href="#"><img class="logo" src="assets/logo.png" alt=""></a>
+
+          <nav>
+              <ul class="list">
+                  <li><a href="#work">Projects</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#about-me">About me</a></li>
+                  <li><a href="#contacts">Contacts</a></li>
+              </ul>
+
+              <button class="dropdown-btn">
+                <svg class="menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+              </button>
+              <div class="dropdown">
+                
+                <div class="dropdown-content">
+                    <a href="#work">Projects/></a>
+                    <a href="#skills">Skills/></a>
+                    <a href="#about-me">About me/></a>
+                    <a href="#contacts">Contacts/></a>
+
+                </div>
+            </div>
+
+          </nav>
+        </header>  
+        <div class="words">
+            <h2>Hi I am <span class="color">Mori0x</span></h2>
+            <h2>I <span class="font">design</span> and develop <span class="auto-type"></span></h2>
+            <p>Let me tell about myself...</p>
+        </div>
+
+        
+    </div>
+
+    <main>
+        <div id="overlay"></div>
+        <div id="work" class="title"><p>My projects/></p></div>
+        <br>
+        <br>
+        <div class="projects">
+            
+            
+            <div class="project 1">
+                
+                <img src="assets/tourist.jpg" alt="">
+                <h2>Tourist telegram bot</h2>
+                <div class="description 1" id="project">
+
+
+                    <div class="slider">
+                        <img src="assets/hotel5.png" alt="">
+                        <img src="assets/hotel3.png" alt="">
+                        <img src="assets/hotel4.png" alt="">
+                        <img src="assets/hotel6.png" alt="">
+                        <img src="assets/hotel2.png" alt="">
+                    </div>
+                    <h2>Tourist telegram bot</h2>
+
+                    <p>This bot was written by me like final project on Skillbox platform. I used my knowlege of python, working with api and json. This bot has 3 commands: <br></p>
+                    <ol>
+                        <li>Show intrusctions of usage</li>
+                        <li>Search hotels</li>
+                        <li>Show history of searching</li>
+                    </ol>
+                    <p>Also this bot can search with parametars like: <br></p>
+                    <ol>
+                        <li>City</li>
+                        <li>price range</li>
+                        <li>how far is center</li>
+                        <li>how many hotels show</li>
+                        <li>date of check in and check out</li>
+                        <li>showing the cheapiest hotels</li>
+                        <li>the most expensive hotels</li>
+                        <li>and price range</li>
+                    </ol>
+                    <a class="git-link" href="https://github.com/Mori0x/telegram-hotel-bot" target="_blank">GitHub
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                          </svg>
+                    </a>
+                    <button onclick="closeProject1(0)" class="close-button">&#10060;</button>
+                </div>
+                <div class="button"><button onclick="openProject1(0)" class="hidenshow 1">More</button></div>
+                
+            </div>
+
+
+            <div class="project 2">
+                <img src="assets/cyber2.jpg" alt="">
+                <h2>Security telegram bot</h2>
+                <div class="description 2" id="project">
+                    <div class="slider">
+                        <img src="assets/cyber1.png" alt="">
+                        <img src="assets/cyber2.png" alt="">
+                    </div>
+                    <h2>Security telegram bot</h2>
+                    <p>This bot has access to the computer's webcam and stores two photos: your photo and a "banned" photo. Whenever the script fails to recognize you in front of the screen, it sends a photo of the person attempting to use your computer along with the timestamp to a Telegram channel. Additionally, this bot can display logs of any attempts to use your computer. This bot can: <br></p>
+                    <ol>
+                        <li>Show intrusctions of usage</li>
+                        <li>Start and stop security system</li>
+                        <li>Show security logs</li>
+                    </ol>
+                    <a class="git-link" href="https://github.com/Mori0x/telegram-face-system" target="_blank">GitHub
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                          </svg>
+                    </a>
+                    <button onclick="closeProject1(1)" class="close-button">&#10060;</button>
+                </div>
+                <div class="button"><button onclick="openProject1(1)" class="hidenshow 2">More</button></div>
+                
+            </div>
+            
+            
+
+            <div class="project 3">
+                
+                <img src="assets/song.jpg" alt="">
+                <h2>Lyrics telegram bot</h2>
+                <div class="description 3" id="project">
+                    <div class="slider">
+                        <img src="assets/song1.png" alt="">
+                        <img src="assets/song2.png" alt="">
+                        <img src="assets/song3.png" alt="">
+                    </div>
+                    <h2>Lyrics telegram bot</h2>
+                    <p>This bot will be useful for musician people because it can: <br></p>
+                    <ol>
+                        <li>Search for name of song if you know just some words form it</li>
+                        <li>Search for lyrics of song</li>
+                    </ol>
+                    <a class="git-link" href="https://github.com/Mori0x/telegram-lyrics-bot" target="_blank">GitHub
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                          </svg>
+                    </a>
+                    <button onclick="closeProject1(2)" class="close-button">&#10060;</button>
+                </div>
+                <div class="button"><button onclick="openProject1(2)" class="hidenshow 3">More</button></div>
+                
+            </div>
+            <div class="project 4">
+                <img src="assets/logo_dr1.png" alt="">
+                <h2>Fan page of Borovaya Drone-track</h2>
+                <div class="description 4" id="project">
+                    <div class="slider">
+                        <img src="assets/boro1.png" alt="">
+                        <img src="assets/boro2.png" alt="">
+                    </div>
+                    <h2>Fan page of Borovaya Drone-track</h2>
+                    <p>This site was like final project of module on platform Codecademy. Thats all(<br></p>
+                    <button onclick="closeProject1(3)" class="close-button">&#10060;</button>
+                </div>
+                <div class="button"><button onclick="openProject1(3)" class="hidenshow 4">More</button></div>
+                
+            </div>
+
+
+           
+
+        </div>
+        <br>
+        <div id="skills" class="title"><p>My skills/></p></div>
+        <br>
+        <br>
+        <div id="icos">
+            <div class="container"><img src="assets/html.png" alt=""></div>
+            <div class="container"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" alt=""></div>
+            <div class="container"><img src="https://icon-library.net/images/javascript-icon-png/javascript-icon-png-23.jpg" alt=""></div>
+            <div class="container"><img src="http://pluspng.com/img-png/nodejs-logo-png-nice-images-collection-node-js-desktop-wallpapers-370.png" alt=""></div>
+            <div class="container"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt=""></div>
+            <div class="container"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg" alt=""></div>
+            <div class="container"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/540px-Npm-logo.svg.png" alt=""></div>
+            <div class="container"><img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt=""></div>
+            <div class="container"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""></div>
+        </div>
+
+        <div id="about-me">
+            <p class="title">About Me/></p>
+            <br>
+            <br>
+            <section class="about-me-section">
+                <div class="bio">
+                    <div class="line 1">
+                        <div class="methods">class </div>
+                        <span class="propname">Mori0x </span>
+                         {
+                    </div>
+                    <div class="line 2">
+                        <div class="dot">··</div>
+                        <div class="comment">// I'm passionate about combining technology and creativity to bring unique experiences to life.</div>
+                    </div>
+                    <div class="line 3">
+                        <div class="dot">··</div>
+                        <div class="methods">constructor</div><div class="synt">()</div>
+                        {
+                    </div>
+                    <div class="line 4">
+                        <div class="dot">····</div>
+                        <div class="scope">this</div><div class="synt">.</div><span class="prop2">nickname</span>
+                        
+                        
+                        <span class="scope">=</span>
+                        <span class="string">'Mori0x'</span>
+                    </div>
+                    <div class="line 5">
+                        <div class="dot">····</div>
+                        <div class="scope">this</div><div class="synt">.</div><span class="prop2">dayOfBirthTimestamp</span>
+                        
+                        
+                        <span class="scope">=</span>
+                        <span class="string">1226458800</span>
+                        
+                    </div>
+                    <div class="line 6">
+                        <div class="dot">··</div>
+                        <div class="propname">workExperience</div><div class="synt">()</div>
+                        {
+                    </div>
+
+                    <div class="line 7">
+                        <div class="dot">····</div>
+                        <div class="methods">return</div>
+                        [
+                    </div>
+                    <div class="line 8">
+                        <div class="dot">······</div>
+                        {
+                        <div class="string">'2023'</div>
+                        :
+                        <div class="string">'Studying and looking for work'</div>
+                        }
+                    </div>
+                    <div class="line 9">
+                        <div class="dot">····</div>
+                        ]
+                    </div>
+                    <div class="line 10">
+                        <div class="dot">··</div>
+                        }
+                    </div>
+                    <div class="line 11">
+                        <div class="dot">··</div>
+                        <div class="propname">skills</div><div class="synt">()</div>
+                        {
+                    </div>
+                    <div class="line 12">
+                        <div class="dot">····</div>
+                        <div class="methods">return</div>
+                        [
+                        <div class="string">'html'</div><div class="synt">,</div>
+                        
+                        <div class="string">'css'</div><div class="synt">,</div>
+                        
+                        <div class="string">'js'</div><div class="synt">,</div>
+                        
+                        <div class="string">'python'</div><div class="synt">,</div>
+                        
+                        <div class="string">'api'</div><div class="synt">,</div>
+                        
+                        <div class="string">'json'</div><div class="synt">,</div>
+                        
+                        <div class="string">'git'</div><div class="synt">,</div>
+                        
+                        <div class="string">'github'</div><div class="synt">,</div>
+                        
+                        <div class="string">'npm'</div><div class="synt">,</div>
+                        
+                        <div class="string">'node.js'</div>
+                        ]
+                    </div>
+                    <div class="line 13">
+                        <div class="dot">··</div>
+                        }
+                    </div>
+                    <div class="line 13">
+                        
+                        } <span class="cursor"></span>
+                    </div>
+                    
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="title" id="contacts">Contacts/></p>
+        <p class="cust">Find me on:</p>
+        <br>
+        <br>
+        <div class="contact-area">
+            <a href="https://github.com/Mori0x" target="_blank">
+                <svg class="git" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"></path></svg>
+                <p class="name">GitHub</p>
+            </a>
+            <a href="https://www.instagram.com/defocused_/" target="_blank">
+                <svg class="insta" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                <p class="name">Instagram</p>
+            </a>
+        </div>
+        <p class="last-words">thats all:(</p>
+        <br>
+        <br>
+        <br>
+
+
+        <small>© Made with 
+            <svg class="love" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="#988e9f" d="M5.719 14.75c-0.236 0-0.474-0.083-0.664-0.252l-5.060-4.498 5.341-4.748c0.412-0.365 1.044-0.33 1.411 0.083s0.33 1.045-0.083 1.412l-3.659 3.253 3.378 3.002c0.413 0.367 0.45 0.999 0.083 1.412-0.197 0.223-0.472 0.336-0.747 0.336zM14.664 14.748l5.341-4.748-5.060-4.498c-0.413-0.367-1.045-0.33-1.411 0.083s-0.33 1.045 0.083 1.412l3.378 3.003-3.659 3.252c-0.413 0.367-0.45 0.999-0.083 1.412 0.197 0.223 0.472 0.336 0.747 0.336 0.236 0 0.474-0.083 0.664-0.252zM9.986 16.165l2-12c0.091-0.545-0.277-1.060-0.822-1.151-0.547-0.092-1.061 0.277-1.15 0.822l-2 12c-0.091 0.545 0.277 1.060 0.822 1.151 0.056 0.009 0.11 0.013 0.165 0.013 0.48 0 0.904-0.347 0.985-0.835z"></path></svg>
+             by Mori0x.</small>
+    </footer>
+
+
+    
+    
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.auto-type', {
+            
+            strings: ['websites', 'telegram ^200 bots', 'interfaces ^500 for websites'],
+            typeSpeed: 90,
+            backSpeed: 90,
+            loop: true
+})
+    </script>
+</body>
+</html>
