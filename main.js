@@ -90,7 +90,7 @@ function smoothScroll(targetId) {
 }
 
 // Attach click event listeners to the navigation links
-const navLinks = document.querySelectorAll('nav a');
+const navLinks = document.querySelectorAll('header a');
 navLinks.forEach(link => {
   link.addEventListener('click', (e) => {
       e.preventDefault(); // Prevent the default jump-to behavior
